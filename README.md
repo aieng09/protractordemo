@@ -9,7 +9,7 @@ http://nodejs.org/download/
 
 Clone the github repository:
 ```
-git clone https://github.com/angular/protractor.git
+git clone https://github.com/aieng09/protractordemo.git
 cd protractor
 npm install
 ```
