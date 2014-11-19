@@ -16,10 +16,10 @@ npm install jasmine-reporters@~1.0.0
 
 Instructions:
 
-# npm install -g protractor
+1. npm install -g protractor
 
-# webdriver-manager update
+2. webdriver-manager update
 
-# webdriver-manager start
+3. webdriver-manager start
 
-# Start the tests (on a separate terminal):  node ./node_modules/protractor/bin/protractor protractor_conf.js
+4. Start the tests (on a separate terminal):  node ./node_modules/protractor/bin/protractor protractor_conf.js
