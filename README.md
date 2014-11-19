@@ -1,25 +1,33 @@
 protractordemo
 ==============
-To Run This project Please install the following programe
+## To Get Start:
 
-Install nodejs
+Install Nodejs
+```
+http://nodejs.org/download/
+```
 
-Run the following commands:
+Clone the github repository:
+```
+git clone https://github.com/angular/protractor.git
+cd protractor
+npm install
+```
+Update Webdriver Manager.
+```
+node Node_module/protractor/bin/webdriver-manager update
+```
+Start up a selenium server. 
+```
+node Node_module/protractor/bin/webdriver-manager start
+```
+By default, the tests expect the selenium server to be running at http://localhost:4444/wd/hub.
 
-npm install protractor
-
-node webdriver-manager update
-
-npm install jasmine-reporters@~1.0.0
-
-
-
-Instructions:
-
-1. npm install -g protractor
-
-2. webdriver-manager update
-
-3. webdriver-manager start
-
-4. Start the tests (on a separate terminal):  node ./node_modules/protractor/bin/protractor protractor_conf.js
+Protractor's test suite runs against the included test application. Start that up with
+```
+npm start
+```
+Then run the tests with
+```
+npm test
+```
