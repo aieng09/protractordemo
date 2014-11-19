@@ -7,7 +7,9 @@ Install nodejs
 Run the following commands:
 
 npm install protractor
+
 node webdriver-manager update
+
 npm install jasmine-reporters@~1.0.0
 
 
