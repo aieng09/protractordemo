@@ -20,3 +20,4 @@ tmp/
 *ide-plugin.xml
 *.log
 local.properties.json
+*.DS_Store
